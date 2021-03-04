@@ -1,0 +1,120 @@
+/* * {
+    margin: 0;
+    padding: 0px;
+} */
+
+/* https://loading.io/ */
+
+/* https://cssreference.io/ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* .example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+} */
+
+.box {
+    width: 50%;
+    margin: auto;
+}
+img {
+    width:250px;
+}
+img, a {
+    display: block;
+}
+.on {
+    width: 150px;
+    height: 50px;
+    background: crimson;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+.alert {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    padding: 40px;
+    text-align: justify;
+    background: coral;
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+}
+.alert .ok {
+    width: 150px;
+    height: 50px;
+    margin: 40px auto 0;
+    border-radius: 5px;
+    background: chartreuse;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+.alert .ok:hover {
+    background: darkcyan;
+}
+.hide {
+    visibility: hidden;
+}

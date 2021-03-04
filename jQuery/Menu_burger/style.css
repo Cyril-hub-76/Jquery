@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: auto;
+    overflow: hidden;
+}
+.iconBurger {
+    float: right;
+    padding: 10px;
+}
+.iconBurger span {
+    font-size: 50px;
+}
+.nav {
+    height: 90vh;
+    width: 15%;
+    background: slategrey;
+    float: right;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.nav a {
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.nav2 {
+    margin-right: -400px;
+    transition-duration: 0.5s;
+}
+.open {
+    margin-right: 0;
+}

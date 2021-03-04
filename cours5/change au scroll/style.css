@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.text {
+    font-size: 35px;
+    padding: 10px;;
+    width: 60%;
+    text-align: justify;
+    background-color: aqua;
+    margin: auto;
+    transition:  all .5s; /* mettre juste içi il agira sur les deux*/
+}
+.changeBackground {
+    background-color: purple;
+    color: #fff;
+}
+
+.scroll {
+    width: 250px;
+    height: 50px;
+    background-color: rosybrown;
+    position: fixed;
+    top: 114px;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.scroll2 {
+    width: 250px;
+    height: 50px;
+    background-color:slateblue;
+    position: fixed;
+    top: 114px;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}

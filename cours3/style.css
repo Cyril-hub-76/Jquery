@@ -1,0 +1,11 @@
+.maClasse {
+    font-size: 200px;
+    border: 1px black solid;
+}
+img {
+    display: block;
+}
+.flexbox {
+    display: flex;
+    background-color: aqua;
+}
